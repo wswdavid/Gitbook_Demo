@@ -15,14 +15,12 @@
     "-livereload",
     "-sharing",
     "search-plus",
-    "simple-page-toc",
-    "github",
     "edit-link",
     "theme-comscore",
+    "back-to-top-button",
     "prism",
     "prism-themes",
     "advanced-emoji",
-    "anchors",
     "include-codeblock",
     "ace",
     "emphasize",
@@ -31,12 +29,21 @@
     "tbfed-pagefooter",
     "expandable-chapters-small",
     "sectionx",
-    "local-video",
     "sharing-plus",
-    "copy-code-button"
+    "todo",
+    "copy-code-button",
+    "page-toc-button",
+    "flexible-alerts",
+    "popup",
+    "hide-element",
+    "multipart"
   ],
 
   "pluginsConfig": {
+    "pluginsConfig": {
+      "hide-element": {
+        "elements": [".gitbook-link"]
+      },
     "github": {
       "url": "https://github.com/wswdavid/Gitbook_Demo"
     },
