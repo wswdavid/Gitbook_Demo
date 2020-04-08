@@ -3,7 +3,6 @@
 - 安装 gitbook
 
 ```shell
-npm install
 npm install gitbook-cli -g
 ```
 
@@ -12,6 +11,8 @@ npm install gitbook-cli -g
 ```shell
 git clone https://github.com/wswdavid/Gitbook_Demo.git
 cd Gitbook_Demo
+#npm install
+#如果需要commit前进行markdownlint则执行这一条
 gitbook install
 gitbook serve
 ```

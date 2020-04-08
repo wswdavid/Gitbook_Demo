@@ -1,9 +1,9 @@
 {
-  "name": "GitbookDemo",
+  "name": "gitbook_demo",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "lint-md": "node_modules/.bin/markdownlint  --ignore _book --ignore node_modules **/*.md "
+    "lint-md": "node_modules/.bin/markdownlint  --ignore _book --ignore node_modules **/*.md"
   },
   "husky": {
     "hooks": {
